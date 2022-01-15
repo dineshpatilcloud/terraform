@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "example" {
   name     = "dinesh-resources"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "example1" {
+  name     = "dinesh1-resources"
+  location = "West Europe"
+}
